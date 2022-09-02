@@ -1,0 +1,36 @@
+{
+    "name": "react-tilt.ts",
+    "version": "1.0.0",
+    "description": "React wrapper with typescript support around vanilla-tilt",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": { "build": "./node_modules/typescript/bin/tsc -p tsconfig.json" },
+    "repository": {
+        "type": "git",
+        "url": "github.com/PaulNafureanu/react-tilt.ts"
+    },
+    "files": ["dist/index.js"],
+    "keywords": [
+        "react",
+        "typescript",
+        "tilt.ts",
+        "tilt.js",
+        "effect",
+        "style",
+        "vanilla",
+        "js",
+        "ts"
+    ],
+    "author": "PaulNafureanu",
+    "license": "MIT",
+    "dependencies": {
+        "vanilla-tilt": "1.7.0",
+        "react": "16.12.0",
+        "react-dom": "16.12.0"
+    },
+    "devDependencies": {
+        "typescript": "4.0.3",
+        "@types/react": "16.9.52",
+        "@types/react-dom": "16.9.8"
+    }
+}
