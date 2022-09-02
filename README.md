@@ -1,25 +1,24 @@
 <p align="center">
-  <img src="logo.png"/>
   <br><br>
-  <b>A smooth 3D tilt React component wrapped around vanilla-tilt.js</b>
+  <b>A smooth 3D tilt React component wrapped around vanilla-tilt.js with support for TypeScript (TS)</b>
   <br><br>
 </p>
 
 &nbsp;
 
-#### install
+#### Installation
 
 ```
-npm install react-vanilla-tilt
+npm install react-tilt
 ```
 
 &nbsp;
 
-#### usage
+#### Usage Example
 
 ```jsx
 import React from "react";
-import Tilt from "react-vanilla-tilt";
+import Tilt from "react-tilt";
 
 <Tilt>
   <div>You can put whatever you want inside this</div>
@@ -28,7 +27,7 @@ import Tilt from "react-vanilla-tilt";
 
 &nbsp;
 
-#### options
+#### Options
 
 ```js
 {
@@ -50,7 +49,7 @@ import Tilt from "react-vanilla-tilt";
 
 ```jsx
 import React from "react";
-import Title from "react-vanilla-tilt";
+import Title from "react-tilt";
 
 <Tilt options={{ scale: 2, max: 25 }}>
   <div>You can put whatever you want inside this</div>
@@ -59,24 +58,15 @@ import Title from "react-vanilla-tilt";
 
 &nbsp;
 
-#### Related projects
-
-- [card-vibes](https://github.com/siddharthkp/card-vibes): The card component with good vibes built on top of this project
-
-  Thanks to
+Thanks to
 
 - [vanilla-tilt.js](https://github.com/micku7zu/vanilla-tilt.js) by [@micku7zu](https://github.com/micku7zu)
 - [tilt.js](https://github.com/gijsroge/tilt.js) by [@gijsroge](https://github.com/gijsroge)
-- v2.0.0 by [@hadnet](https:github.com/hadnet)
+- v1.0.0 of [react-vanilla-tilt] by [@siddharthkp](https://github.com/siddharthkp)
+- v2.0.0 of [react-vanilla-tilt] by [@hadnet](https://github.com/hadnet)
 
 &nbsp;
 
-#### like it?
+#### License
 
-:star: this repo
-
-&nbsp;
-
-#### license
-
-MIT © [siddharthkp](https://github.com/siddharthkp)
+React-tilt is [MIT licensed](https://github.com/PaulNafureanu/react-tilt.ts/blob/master/LICENSE).
