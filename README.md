@@ -21,7 +21,10 @@ import React from "react";
 import Tilt from "react-tilt";
 
 <Tilt>
-  <div>You can put whatever you want inside this</div>
+  <div id="card-to-be-tilted">
+    Inside of our div card: You can put whatever you want inside this. It
+    creates the same effect
+  </div>
 </Tilt>;
 ```
 
